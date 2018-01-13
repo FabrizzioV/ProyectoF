@@ -17,12 +17,23 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="15dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Avisos"
-                    android:textSize="25dp"
-                    android:textColor="@color/blanco"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:text=""
+                        android:background="@drawable/androidstudioicon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Avisos"
+                        android:textSize="25dp"
+                        android:textColor="@color/blanco"/>
+                </LinearLayout>
+
             </LinearLayout>
         </ScrollView>
     </RelativeLayout>
