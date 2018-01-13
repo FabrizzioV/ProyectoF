@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
                 Intent intent = new Intent(MainActivity.this, Ingreso.class);
                 startActivity(intent);
                 Toast.makeText(MainActivity.this, "Bienvenido hijo mío " + correo.getText(), Toast.LENGTH_SHORT).show();
+                intent.putExtra("correo",correo.getText());
                 break;
             case R.id.texto1:
                 Intent intent1 = new Intent(MainActivity.this, Main2Activity.class);

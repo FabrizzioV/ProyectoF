@@ -27,6 +27,7 @@
                         android:text=""
                         android:background="@drawable/androidstudioicon"/>
                     <TextView
+                        android:id="@+id/aviso"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Avisos"
